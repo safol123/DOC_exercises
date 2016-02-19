@@ -1,0 +1,22 @@
+var paintColor = "green";
+
+for(var i=0; i < 10000; i++) {
+  var newDiv = $("<div class='square'></div>");
+  $("#paint-area").append(newDiv);
+}
+
+//line 4 actually creates the squares
+//line 5 actual lets the square be created
+
+$(".square").on("mouseover", paintSquare);
+//line 11 find squares and listen for when the mouse goes over it
+//in line 11, the paint square is not working because it is not followed by a
+//paranthesis
+//in
+
+function paintSquare(event) {
+//this.style.background-color = piantColor
+  $(this).css("background-color", paintColor);
+}
+// in line 16 to 17 this changes the background color
+//$(this) gives the element the jquery

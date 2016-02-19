@@ -24,5 +24,5 @@ function student_info(student) {
 }
 
 for(i = 0; i < all_students.length; i++) {
-    console.log(student_info(all_students[i]));
+    (student_info(all_students[i]));
 }

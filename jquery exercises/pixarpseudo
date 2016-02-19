@@ -1,0 +1,18 @@
+entering new color
+  enter new color in form
+find button
+    add click listener
+      run change color function
+change color function
+      get text in the input field
+      validate input
+      select brush div
+      change its color to
+
+      set paint color to
+
+
+clicking button
+  clicking button transmits color entered in the form
+brush should change
+painting uses new color
