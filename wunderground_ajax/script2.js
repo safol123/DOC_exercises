@@ -24,6 +24,7 @@ function getWeather(){
     var iconUrl = response.current_observation.icon_url
     var iconDiv = $("<div class='iconUrl'></div>")
     //iconDiv.append($("<img src='" + iconUrl + "'>"))
+    iconDiv.text("Icon image: ")
     iconDiv.append($("<img src='" + iconUrl + "'>"))
     $("body").append(iconDiv)
 
