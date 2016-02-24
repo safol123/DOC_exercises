@@ -18,7 +18,7 @@ function convertResultsToObjects(response) {
   // for each row, skipping the first (header) row
   for(var row=1; row < response.length; row++) {
     var currentRow = response[row]; // get the current row
-    var newRowObj = {}; // make a new object to hold the converted data
+    var newRowObj = {}; // make a new object to hold the converted data. 
 
     // for each column in the current row, move the data into the object
     // using the headers as the key, and the value from the current row as the
