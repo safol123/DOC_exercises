@@ -5,28 +5,30 @@ h1 {
 }
 
 body{
-  background-color: #ead2ac;
+  /*background-color: #ead2ac;*/
 }
 
 
 
 .movieData {
   color: #0000ff;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .optionarea {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
     color: #4281a4;
-
   }
 
   #movies-by-year {
 
-    margin: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     border: solid 1px;
     color: #4281a4;
-    
+
   }

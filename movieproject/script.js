@@ -5,7 +5,7 @@ $(document).ready(function(){
   // intital chart
   var data = {
     title: "Movie Data from 1998 to 2008",
-    categories: movieData.years,
+    categories:  movieData.years,
     series: movieData.ticketPrice ,
     seriesName: "Ticket Price" + " " + "($)",
     yAxisTitle: "Ticket Price" + " " + "($)",
@@ -66,7 +66,7 @@ function buildchart(data, elementToPutChartIn) {
   elementToPutChartIn.highcharts({
     title: {
       text: data.title,
-      x: -20 //center
+      x: -20
     },
     subtitle: {
       text: 'www.infoplease.com',
