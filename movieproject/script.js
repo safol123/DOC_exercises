@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   // intital chart
   var data = {
-    title: "Movie Data from 1998 to 2008",
+    title: "Movie Data from 1997 to 2008",
     categories:  movieData.years,
     series: movieData.ticketPrice ,
     seriesName: "Ticket Price" + " " + "($)",
